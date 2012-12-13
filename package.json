@@ -2,10 +2,14 @@
     "name": "sm-test-package2",
     "version": "0.1.0",
     "pm": "sm",
+	"directories": {
+		"lib": "./"
+	},
     "mappings": {
     	"package1": "github.com/sourcemint/test-package1/~0.1.0"
 	},
-	"directories": {
-		"lib": "./"
+	"scripts": {
+		"start-workspace": "node ./workspace.js --start",
+		"stop-workspace": "node ./workspace.js --stop"
 	}
 }
