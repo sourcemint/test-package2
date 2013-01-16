@@ -10,6 +10,7 @@
 	},
 	"scripts": {
 		"start-workspace": "node ./workspace.js --start",
-		"stop-workspace": "node ./workspace.js --stop"
+		"stop-workspace": "node ./workspace.js --stop",
+		"run": "./bin/test ."
 	}
 }
