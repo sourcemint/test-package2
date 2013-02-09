@@ -11,6 +11,6 @@
 	"scripts": {
 		"start-workspace": "node ./workspace.js --start",
 		"stop-workspace": "node ./workspace.js --stop",
-		"run": "./bin/test ."
+		"run": "./bin/test arg"
 	}
 }
